@@ -1,5 +1,9 @@
 {
-  "sources": ["src/design.v"],
-  "testbench": "sim/tb_design.v",
-  "simulation_top": "tb_design"
+  "sources": [
+    "src/moore_cycle.v",
+    "src/input_frontend.v",
+    "src/lab2_moore.v"
+  ],
+  "testbench": "sim/tb_moore_cycle.sv",
+  "simulation_top": "tb_moore_cycle"
 }
